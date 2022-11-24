@@ -1,0 +1,149 @@
+*{
+    font-family:  'Space Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(13, 25, 43);
+}
+.main-container{
+display: flex;
+}
+.item-container{
+    display: flex;
+    width:70%;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.container{
+    margin-top:20px;
+    margin-right:30px;
+    margin-left:10px;
+    border-radius: 10px;    
+    background-color: rgb(20, 37, 61);
+    height:450px;
+    width:250px;
+}
+.equillbrium{
+    border-radius: 10px;
+    margin: 20px;
+    height: 190px;
+    width: 210px;
+}
+.heading {
+    padding-left:25px;
+    padding-bottom: 30px;
+    color:white;
+  font-size: 7px;
+}
+.para{
+    font-size:13px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    color:  rgb(125, 151, 189);
+}
+.value-time,.time{
+    display: flex;
+    flex: 1;
+}
+.value{
+    display: flex;
+    color: rgb(83, 251, 251);
+    font-size:10px;
+    flex: 1;
+    padding-left:15px;
+    padding-bottom: 13px;
+}
+.ethereum{
+    height:10px;
+    width: 7px;
+    padding-right: 7px;
+    
+}
+.clock{
+    padding-left:5px;
+    padding-right: 5px;
+    height:10px;
+    width:10px;
+}
+.time{
+    font-size:10px;
+    color:rgb(72, 97, 133);
+}
+hr{
+    margin: 10px 30px;
+    color:rgb(72, 97, 133);
+    outline: none;
+}
+.creator{
+    display: flex;
+}
+.creator-pic{
+    padding-left:20px;
+    height:30px;
+    width: 30px;
+}
+.credits{
+    padding-left: 10px;
+    font-size:12px;
+    padding-top: 13px;
+    display: flex;
+    color:rgb(125, 151, 189) ;
+}
+.name{
+    color: rgb(255, 255, 255);
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+.col-image{
+    margin: 15px;
+    height:140px;
+    width:140px;
+    border-radius:10px;
+}
+
+.col-container{
+    display: flex;
+    height:220px;
+    border-radius:10px;
+    width:400px;
+    background-color: rgb(20, 37, 61);
+    margin: 25px;
+}
+.col-value{
+    display: flex;
+    font-size: 10px;
+        color: aqua;
+}
+.col-time{
+    display: flex;
+    color: rgb(72, 97, 133);
+    font-size: 10px;
+}
+.value-container{
+   
+    padding:15px;
+    padding-top: 15px;
+    display: flex;
+}
+.content-container{
+    padding-top:20px;
+}
+.col-para{
+    padding-left:25px;
+    color:rgb(125, 151, 189) ;
+    width:150px;
+    font-size:15px;
+}
+.col-creator{
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+}
+.col-credits{
+    color:rgb(125, 151, 189) ;
+    font-size:13px;
+    padding-left: 10px;
+}
